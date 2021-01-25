@@ -1,0 +1,6 @@
+body {
+  margin: 0;
+  font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  background: linearGradient(to left, rgb(43, 212, 218) 100% , rgb(38, 88, 107) 100%)
+}
