@@ -28,8 +28,10 @@ class App extends React.Component {
         else {
             return (
                 <div>
-                    <h1> Robort  Friends  </h1>
-                    <SearchBox searchChange={this.onSearchChange} />
+                    <h1 className='tc'> Robort  Friends  </h1>
+                    <div className='tc'>
+                        <SearchBox searchChange={this.onSearchChange} />
+                    </div>
                     <Scroll>
                         <ErrorBoundry>
                             <CardList robots={filteredrobot} />
